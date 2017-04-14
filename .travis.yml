@@ -2,8 +2,7 @@ language: node_js
 node_js: node
 deploy: 
   provider: heroku
-  api_key:
-    secure: 1507fdcf9b3e0db26851b49fd51f7f5b287daa65
+  api_key: 1507fdcf9b3e0db26851b49fd51f7f5b287daa65
   app: still-headland-69909
   on:
     repo: jylei/node-shopping-list-integration-test
