@@ -1,8 +1,9 @@
 language: node_js
 node_js: node
-deploy: 
+deploy:
   provider: heroku
-  api_key: 1507fdcf9b3e0db26851b49fd51f7f5b287daa65
+  api_key:
+    secure: ewHcZRIGbQPZOa/0+Tj6wfjQxmavRjvbCWW5a//A8UflriAeBuWuX/PqRxyw9VdUL0PGGCOIs1wNLHpawo/JYJ9pT7Zk1+i3+LI0FekgOkRkfFeQ+gkGtk9dsH6k/cFrNdaz6vvFQbnE05NPivqlJEkksXOLV6yNHbCj7moPda5LLMwCO1FfO2ZtoVyzQxNxGCF3EoxUI/6oDZ/bKazx3A11KdH+FO0wjQyOJW9j+1849Zkhqvut2/0vN6c4wivlS+TFcqePbyE/STABltgTB3r0gR4zZiyZuUIjzz+t17nMMzT4GLcdq63dlOQupLWQ6EqiTPkzglqEMjNR432SpFK0ukPI3xTKk/75JMM7nxGX3zscRtGGCzozfFv9GHyffnqqtm0XJqhM1TADUW98gJ/OzO83IEQl7P4/UGK/jhJE0ZpNG4xlPCOOEL2+6LSg0SjgI2j/LeFk+WVAiPUNFMm9umkfMz3cFpmZSSqXY1XD7ybU0lTwwFaZpyOCibsH+Jhakh8/mjGDwnvzVqeRaT4yRN/ARWNr20LQ5zLrTbAujkm7fARgNeeYOV452DASDMEY6kUvpGkz4UOEaMRjnoplLXKMk8ESnfFeQyglKxaNl38coQ3Hj8pOEh+5UIJvfJ592rIICc6fKNAHlm4lj8Xw/uc0CVlwUqm7G4hRk1A=
   app: still-headland-69909
   on:
     repo: jylei/node-shopping-list-integration-test
